@@ -494,4 +494,50 @@ nav {
   border-radius: 100%;
   width: 200px;
   height: 200px;
+  margin-bottom: 2rem;
+}
+
+.tag-line {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem auto;
+  transition: all .2s ease-in-out;
+}
+
+.tag-line:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 0%;
+  height: 2px;
+  background-color: #00BFA5;
+  transition: all .4s ease-in-out;
+}
+
+.tag-line:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .2);
+}
+
+.tag-line:hover:after {
+  width: 100%;
+}
+
+.tag-line h2 {
+  margin: 4rem auto;
+  text-align: center;
+  font-weight: 300;
+  transition: font-weight .1s ease-in-out;
+}
+
+.tag-line:hover h2 {
+  font-weight: 700;
+}
+
+.icon {
+  width: 64px;
+  stroke: #333;
+}
+.acc {
+  color: #00BFA5;
+  font-weight: 700;
 }
